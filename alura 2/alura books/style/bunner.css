@@ -1,0 +1,35 @@
+.bunner {
+    background-color: var(--vermelho);
+    color: white;
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.bunner__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bunner__texto {
+    font-weight: 502;
+    margin: 1em 0;
+}
+
+.bunner__pesquisa {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.bunner__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background: url("../img/Lupa.svg") no-repeat;
+    
+}
